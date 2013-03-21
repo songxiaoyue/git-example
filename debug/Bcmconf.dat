@@ -1,0 +1,39 @@
+[REGCONF]
+TYPE01_Cash =5
+TYPE02_Cash =5
+TYPE03_Cash =5
+TYPE04_Cash =5
+TYPE05_Cash =5
+TYPE06_Cash =5
+TYPE07_Cash =5
+TYPE08_Cash =5
+TYPE09_Cash =5
+TYPE0A_Cash =5
+TYPE0B_Cash =5
+TYPE0C_Cash =5
+TYPE0D_Cash =5
+TYPE0E_Cash =5
+
+001_CashW=63
+001_CashH=135
+001_CashD=120
+
+005_CashW=63
+005_CashH=135
+005_CashD=120
+
+010_CashW=70
+010_CashH=140
+010_CashD=120
+
+020_CashW=70
+020_CashH=145
+020_CashD=120
+
+050_CashW=70
+050_CashH=150
+050_CashD=120
+
+100_CashW=77
+100_CashH=156
+100_CashD=120

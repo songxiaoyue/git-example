@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 第三版，单一票制 -->
+<SubwayUI Version="1.0"
+          screenWidth="1280"
+          screenHeight="1024"
+          mainImageActualWidth="2048"
+          mainImageActualHeight="1740"
+          lineImageActualWidth="1024"
+          lineImageActualHeight="870"
+          defMapPageId="1"
+          selfStationId="0122"
+          selfLineId="1"
+          canChangeTicketType="false"
+          saleTimeout="15"
+          reloadTimeout="15"
+          maxChange="20"
+          maxInsertFare="100000"
+          maxReloadFare="500000"
+          startView="OutOfService"
+          isSingleTicketSystem="true"
+          defaultTicketType="0"
+          trunOffScreenAfterAdvertize="false"
+          timeBeforeAdvertisement="900"
+          timeLimitOfAdvertize="60"
+          turnOffScreenAfterDayOff="false"
+          showCursor="false">
+  <!--startView的取值范围："MainUI"-主界面；"OutOfService"-暂停服务界面；"Standby"-待机界面。注意全字匹配和大小写敏感-->
+  <AllowedReloadFareList>
+    <!--注意需要按照从小到大的顺序排列-->
+    <AllowedReloadFare value="50"/>
+    <AllowedReloadFare value="100"/>
+  </AllowedReloadFareList>
+  <!--多票制时，各种票种列表-->
+  <TicketTypeList>
+    <!--  -->
+    <TicketType productType="3"
+                passengerType="1">
+      <TicketTypeChs>单程票</TicketTypeChs>
+      <TicketTypeEn>One-Way</TicketTypeEn>
+    </TicketType>
+    <!--  -->
+    <TicketType productType="5"
+                passengerType="1">
+      <TicketTypeChs>纪念票</TicketTypeChs>
+      <TicketTypeEn>Souvenir</TicketTypeEn>
+    </TicketType>
+  </TicketTypeList>
+  
+  <!--付款方式，可用币种列表-->
+  <CoinList>
+  	<!--<CoinValue id="1">
+  		<TextChs>
+  			<Text text="5角"/>
+  		</TextChs>
+      <TextEng>
+        <Text text="￥0.5"/>
+      </TextEng>
+   	</CoinValue>-->
+  	<CoinValue id="1">
+  		<TextChs>
+  			<Text text="1元"/>
+  		</TextChs>
+      <TextEng>
+        <Text text="￥1"/>
+      </TextEng>
+   	</CoinValue>
+  </CoinList>
+  
+   
+  <NoteList>
+  	<NoteValue id="1">
+  		<TextChs>
+  			<Text text="￥5"/>
+  		</TextChs>
+      <TextEng>
+        <Text text="￥5"/>
+      </TextEng>
+   	</NoteValue>
+  	<NoteValue id="2">
+  		<TextChs>
+  			<Text text="￥10"/>
+  		</TextChs>
+      <TextEng>
+        <Text text="￥10"/>
+      </TextEng>
+   	</NoteValue>  	
+   	<NoteValue id="3">
+  		<TextChs>
+  			<Text text="￥20"/>
+  		</TextChs>
+      <TextEng>
+        <Text text="￥20"/>
+      </TextEng>
+   	</NoteValue>    	
+  </NoteList>   
+  
+   
+    
+  <PriceButtonBar>
+    <PriceButton id="1"
+                 price="2">
+      <!--由于每个按钮上的字号分为大小两种，所以需要把字符串分开-->
+      <TextChs>
+        <Text1 text="2"/>
+        <!--Text1是左边的字符串，Text2是右边的字符串-->
+        <Text2 text="元"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="2"/>
+        <Text2 text="￥"/>
+      </TextEng>
+    </PriceButton>
+    <PriceButton id="2"
+                 price="3">
+      <TextChs>
+        <Text1 text="3"/>
+        <Text2 text="元"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="3"/>
+        <Text2 text="￥"/>
+      </TextEng>
+    </PriceButton>
+
+    <PriceButton id="3"
+                 price="4">
+      <TextChs>
+        <Text1 text="4"/>
+        <Text2 text="元"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="4"/>
+        <Text2 text="￥"/>
+      </TextEng>
+    </PriceButton>
+    <PriceButton id="4"
+                 price="5">
+      <TextChs>
+        <Text1 text="5"/>
+        <Text2 text="元"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="5"/>
+        <Text2 text="￥"/>
+      </TextEng>
+    </PriceButton>
+    <PriceButton id="5"
+                 price="6">
+      <TextChs>
+        <Text1 text="6"/>
+        <Text2 text="元"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="6"/>
+        <Text2 text="￥"/>
+      </TextEng>
+    </PriceButton>
+    <PriceButton id="6"
+                 price="7">
+      <TextChs>
+        <Text1 text="7"/>
+        <Text2 text="元"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="7"/>
+        <Text2 text="￥"/>
+      </TextEng>
+    </PriceButton>
+    <PriceButton id="7"
+                 price="8">
+      <TextChs>
+        <Text1 text="8"/>
+        <Text2 text="元"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="8"/>
+        <Text2 text="￥"/>
+      </TextEng>
+    </PriceButton>
+    <PriceButton id="8"
+                 price="9">
+      <TextChs>
+        <Text1 text="9"/>
+        <Text2 text="元"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="9"/>
+        <Text2 text="￥"/>
+      </TextEng>
+    </PriceButton>
+    <!--<PriceButton id="9"
+                 price="9">
+      <TextChs>
+        <Text1 text="9"/>
+        <Text2 text="元"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="9"/>
+        <Text2 text="￥"/>
+      </TextEng>
+    </PriceButton>
+    <PriceButton id="10"
+                 price="10">
+      <TextChs>
+        <Text1 text="10"/>
+        <Text2 text="元"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="10"/>
+        <Text2 text="￥"/>
+      </TextEng>
+    </PriceButton>
+    -->
+  </PriceButtonBar>
+  <TickedCountButtonBar>
+    <TickedCountButton id="1"
+                       ticketCount="1">
+      <TextChs>
+        <Text1 text="1"/>
+        <!--文字位置是相对于按钮的位置-->
+        <Text2 text="张"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="1"/>
+        <Text2 text="Sheet"/>
+      </TextEng>
+    </TickedCountButton>
+    <TickedCountButton id="2"
+                       ticketCount="2">
+      <TextChs>
+        <Text1 text="2"/>
+        <Text2 text="张"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="2"/>
+        <Text2 text="Sheets"/>
+      </TextEng>
+    </TickedCountButton>
+    <TickedCountButton id="3"
+                       ticketCount="3">
+      <TextChs>
+        <Text1 text="3"/>
+        <Text2 text="张"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="3"/>
+        <Text2 text="Sheets"/>
+      </TextEng>
+    </TickedCountButton>
+    <TickedCountButton id="4"
+                       ticketCount="4">
+      <TextChs>
+        <Text1 text="4"/>
+        <Text2 text="张"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="4"/>
+        <Text2 text="Sheets"/>
+      </TextEng>
+    </TickedCountButton>
+    <TickedCountButton id="5"
+                       ticketCount="5">
+      <TextChs>
+        <Text1 text="5"/>
+        <Text2 text="张"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="5"/>
+        <Text2 text="Sheets"/>
+      </TextEng>
+    </TickedCountButton>
+    <TickedCountButton id="6"
+                       ticketCount="6">
+      <TextChs>
+        <Text1 text="6"/>
+        <Text2 text="张"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="6"/>
+        <Text2 text="Sheets"/>
+      </TextEng>
+    </TickedCountButton>
+    <TickedCountButton id="7"
+                       ticketCount="7">
+      <TextChs>
+        <Text1 text="7"/>
+        <Text2 text="张"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="7"/>
+        <Text2 text="Sheets"/>
+      </TextEng>
+    </TickedCountButton>
+    <TickedCountButton id="8"
+                       ticketCount="8">
+      <TextChs>
+        <Text1 text="8"/>
+        <Text2 text="张"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="8"/>
+        <Text2 text="Sheets"/>
+      </TextEng>
+    </TickedCountButton>
+    <TickedCountButton id="9"
+                       ticketCount="9">
+      <TextChs>
+        <Text1 text="9"/>
+        <Text2 text="张"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="9"/>
+        <Text2 text="Sheets"/>
+      </TextEng>
+    </TickedCountButton>
+    <TickedCountButton id="10"
+                       ticketCount="10">
+      <TextChs>
+        <Text1 text="10"/>
+        <Text2 text="张"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="10"/>
+        <Text2 text="Sheets"/>
+      </TextEng>
+    </TickedCountButton>
+    
+    <TickedCountButton id="11"
+                       ticketCount="11">
+      <TextChs>
+        <Text1 text="11"/>
+        <Text2 text="张"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="11"/>
+        <Text2 text="Sheets"/>
+      </TextEng>
+    </TickedCountButton>
+    <TickedCountButton id="12"
+                       ticketCount="12">
+      <TextChs>
+        <Text1 text="12"/>
+        <Text2 text="张"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="12"/>
+        <Text2 text="Sheets"/>
+      </TextEng>
+    </TickedCountButton>
+    <TickedCountButton id="13"
+                       ticketCount="13">
+      <TextChs>
+        <Text1 text="13"/>
+        <Text2 text="张"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="13"/>
+        <Text2 text="Sheets"/>
+      </TextEng>
+    </TickedCountButton>
+    <TickedCountButton id="14"
+                       ticketCount="14">
+      <TextChs>
+        <Text1 text="14"/>
+        <Text2 text="张"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="14"/>
+        <Text2 text="Sheets"/>
+      </TextEng>
+    </TickedCountButton>
+		<TickedCountButton id="15"
+                       ticketCount="15">
+      <TextChs>
+        <Text1 text="15"/>
+        <Text2 text="张"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="15"/>
+        <Text2 text="Sheets"/>
+      </TextEng>
+    </TickedCountButton>
+    <TickedCountButton id="16"
+                       ticketCount="16">
+      <TextChs>
+        <Text1 text="16"/>
+        <Text2 text="张"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="16"/>
+        <Text2 text="Sheets"/>
+      </TextEng>
+    </TickedCountButton>
+    <TickedCountButton id="17"
+                       ticketCount="17">
+      <TextChs>
+        <Text1 text="17"/>
+        <Text2 text="张"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="17"/>
+        <Text2 text="Sheets"/>
+      </TextEng>
+    </TickedCountButton>
+    <TickedCountButton id="18"
+                       ticketCount="18">
+      <TextChs>
+        <Text1 text="18"/>
+        <Text2 text="张"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="18"/>
+        <Text2 text="Sheets"/>
+      </TextEng>
+    </TickedCountButton>
+    <TickedCountButton id="19"
+                       ticketCount="19">
+      <TextChs>
+        <Text1 text="19"/>
+        <Text2 text="张"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="19"/>
+        <Text2 text="Sheets"/>
+      </TextEng>
+    </TickedCountButton>
+    <TickedCountButton id="20"
+                       ticketCount="20">
+      <TextChs>
+        <Text1 text="20"/>
+        <Text2 text="张"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="20"/>
+        <Text2 text="Sheets"/>
+      </TextEng>
+    </TickedCountButton>
+    
+    <!--...-->
+  </TickedCountButtonBar>
+  <MapPageButtonBar>
+    <MapPageButton mapPageId="1">
+      <TextChs>
+        <Text1 text="  地图"/>
+        <Text2 text=""/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="   "/>
+        <Text2 text="  Map"/>
+      </TextEng>
+    </MapPageButton>
+    <MapPageButton mapPageId="2">
+      <TextChs>
+        <Text1 text="1号"/>
+        <Text2 text="线"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="Line"/>
+        <Text2 text="1"/>
+      </TextEng>
+    </MapPageButton>
+    <MapPageButton mapPageId="3">
+      <TextChs>
+        <Text1 text="2号"/>
+        <Text2 text="线"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="Line"/>
+        <Text2 text="2"/>
+      </TextEng>
+    </MapPageButton>
+  <!--  <MapPageButton mapPageId="4">
+      <TextChs>
+        <Text1 text="4号"/>
+        <Text2 text="线"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="Line"/>
+        <Text2 text="4"/>
+      </TextEng>
+    </MapPageButton>
+    <MapPageButton mapPageId="5">
+      <TextChs>
+        <Text1 text="5号"/>
+        <Text2 text="线"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="Line"/>
+        <Text2 text="5"/>
+      </TextEng>
+    </MapPageButton>
+    <MapPageButton mapPageId="10">
+      <TextChs>
+        <Text1 text="8号"/>
+        <Text2 text="线"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="Line"/>
+        <Text2 text="8"/>
+      </TextEng>
+    </MapPageButton>
+    <MapPageButton mapPageId="6">
+      <TextChs>
+        <Text1 text="10号"/>
+        <Text2 text="线"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="Line"/>
+        <Text2 text="10"/>
+      </TextEng>
+    </MapPageButton>
+    <MapPageButton mapPageId="7">
+      <TextChs>
+        <Text1 text="13号"/>
+        <Text2 text="线"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="Line"/>
+        <Text2 text="13"/>
+      </TextEng>
+    </MapPageButton>
+    <MapPageButton mapPageId="8">
+      <TextChs>
+        <Text1 text="八通"/>
+        <Text2 text="线"/>
+      </TextChs>
+      <TextEng>
+        <Text1 text="Batong"/>
+        <Text2 text=""/>
+      </TextEng>
+    </MapPageButton>
+    -->
+    <!--...-->
+  </MapPageButtonBar>
+  <MapPageList>
+    <!--为了减少单个XML文件的长度，将每个线路图单独存成XML文件-->
+    <MapPage id="1"
+             lineId="0"
+             mapFilename="StationMap.xml"/>
+    <!--主线路图-->
+    <MapPage id="2"
+             lineId="1"
+             mapFilename="StationMap.xml"/>
+    <MapPage id="3"
+             lineId="2"
+             mapFilename="StationMap.xml"/>
+    <!--<MapPage id="4"
+             lineId="4"
+             mapFilename="MapPage_Line4.xml"/>
+    <MapPage id="5"
+             lineId="5"
+             mapFilename="MapPage_Line5.xml"/>
+    <MapPage id="6"
+             lineId="10"
+             mapFilename="MapPage_Line10.xml"/>
+    <MapPage id="7"
+             lineId="13"
+             mapFilename="MapPage_Line13.xml"/>
+    <MapPage id="8"
+             lineId="97"
+             mapFilename="MapPage_LineBaTong.xml"/>
+    <MapPage id="10"
+             lineId="8"
+             mapFilename="MapPage_Line8.xml"/>-->
+    <!--...-->
+  </MapPageList>
+</SubwayUI>

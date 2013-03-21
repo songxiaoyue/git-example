@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--线路列表-->
+  <LineList>
+    <Line id="1" nameChs="1号线" nameEn="Line 1" closed="false"/>
+    <Line id="2" nameChs="2号线" nameEn="Line 2" closed="false"/>
+    <Line id="4" nameChs="4号线" nameEn="Line 4" closed="false"/>
+    <Line id="5" nameChs="5号线" nameEn="Line 5" closed="false"/>
+    <Line id="8" nameChs="奥运支线" nameEn="Olympic" closed="false"/>
+    <Line id="10" nameChs="10号线" nameEn="Line 10" closed="false"/>
+    <Line id="13" nameChs="13号线" nameEn="Line 13" closed="false"/>
+    <Line id="97" nameChs="八通线" nameEn="Batong" closed="false"/>
+    <Line id="99" nameChs="机场线" nameEn="Airport" closed="false"/>
+    <Line id="15" nameChs="15号线" nameEn="Line 15" closed="false"/>
+    <Line id="93" nameChs="大兴线" nameEn="Daxing" closed="false"/>
+    <Line id="96" nameChs="亦庄线" nameEn="Yizhuang" closed="false"/>
+    <Line id="94" nameChs="昌平线" nameEn="Changping" closed="false"/>
+    <Line id="95" nameChs="房山线" nameEn="Fangshan" closed="false"/>
+    <!--...-->
+  </LineList>
+  <!--车站列表-->
+  <StationList>
+    <!--1号线-->
+    <!--Location_t = (LocationType_t * 2^24) + (Line id * 256) + Station id % 100-->
+    <Station id="0103" nameChs="苹果园" nameEn="Pingguoyuan" isTransfer="false"      openTime="5:00" closeTime="22:00"/>
+    <Station id="0104" nameChs="古城路" nameEn="Guchenglu" isTransfer="true"        openTime="5:00" closeTime="22:00"/>
+    <Station id="0105" nameChs="八角游乐园" nameEn="Bajiaoyouleyuan" isTransfer="true" openTime="5:00" closeTime="22:00"/>
+    <Station id="0106" nameChs="八宝山" nameEn="Babaoshan" isTransfer="false"        openTime="5:00" closeTime="22:00"/>
+    <Station id="0107" nameChs="玉泉路" nameEn="Yuquanlu" isTransfer="true"         openTime="5:00" closeTime="22:00"/>
+    <Station id="0108" nameChs="五棵松" nameEn="Wukesong" isTransfer="true"         openTime="5:00" closeTime="22:00"/>
+    <Station id="0109" nameChs="万寿路" nameEn="Wanshoulu" isTransfer="false"        openTime="5:00" closeTime="22:00"/>
+    <Station id="0110" nameChs="公主坟" nameEn="Gongzhufen" isTransfer="false"       openTime="5:00" closeTime="22:00"/>
+    <Station id="0111" nameChs="军事博物馆" nameEn="Military Museum" isTransfer="true" openTime="5:00" closeTime="22:00"/>
+    <Station id="0112" nameChs="木樨地" nameEn="Muxidi" isTransfer="false"           openTime="5:00" closeTime="22:00"/>
+    <Station id="0113" nameChs="南礼士路" nameEn="Nanlishilu" isTransfer="false"     openTime="5:00" closeTime="22:00"/>
+    <Station id="0114" nameChs="复兴门" nameEn="Fuxingmen" isTransfer="true"         openTime="5:00" closeTime="22:00"/>
+    <Station id="0115" nameChs="西单" nameEn="Xidan" isTransfer="false"               openTime="5:00" closeTime="22:00"/>
+    <Station id="0116" nameChs="天安门西" nameEn="Tiananmenxi" isTransfer="false"    openTime="5:00" closeTime="22:00"/>
+    <Station id="0117" nameChs="天安门东" nameEn="Tiananmendong" isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0118" nameChs="王府井" nameEn="Wangfujing" isTransfer="false"       openTime="5:00" closeTime="22:00"/>
+    <Station id="0119" nameChs="东单" nameEn="Dongdan" isTransfer="false"             openTime="5:00" closeTime="22:00"/>
+    <Station id="0120" nameChs="建国门" nameEn="Jianguomen" isTransfer="true"        openTime="5:00" closeTime="22:00"/>
+    <Station id="0121" nameChs="永安里" nameEn="Yonganli" isTransfer="false"         openTime="5:00" closeTime="22:00"/>
+    <Station id="0122" nameChs="国贸" nameEn="Guomao" isTransfer="true"              openTime="5:00" closeTime="22:00"/>
+    <Station id="0123" nameChs="大望路" nameEn="Dawanglu" isTransfer="false"         openTime="5:00" closeTime="22:00"/>
+    <Station id="0124" nameChs="四惠" nameEn="Sihui" isTransfer="true"              openTime="5:00" closeTime="22:00"/>
+    <Station id="0125" nameChs="四惠东" nameEn="Sihuidong" isTransfer="true"        openTime="5:00" closeTime="22:00"/>
+    
+    <!--2号线-->
+    <Station id="0201" nameChs="西直门" nameEn="Xizhimen" isTransfer="false"             openTime="5:00" closeTime="22:00"/>
+    <Station id="0202" nameChs="车公庄" nameEn="Chegongzhuang" isTransfer="false"      openTime="5:00" closeTime="22:00"/>
+    <Station id="0203" nameChs="阜城门" nameEn="Puchengmen" isTransfer="false"         openTime="5:00" closeTime="22:00"/>
+    <Station id="0204" nameChs="复兴门" nameEn="Fuxingmen" isTransfer="true"           openTime="5:00" closeTime="22:00"/>
+    <Station id="0205" nameChs="长椿街" nameEn="Changchunjie" isTransfer="false"       openTime="5:00" closeTime="22:00"/>
+    <Station id="0206" nameChs="宣武门" nameEn="Xuanwumen" isTransfer="false"           openTime="5:00" closeTime="22:00"/>
+    <Station id="0207" nameChs="和平门" nameEn="Hepingmen" isTransfer="true"          openTime="5:00" closeTime="22:00"/>
+    <Station id="0208" nameChs="前门" nameEn="Quanmen" isTransfer="false"              openTime="5:00" closeTime="22:00"/>
+    <Station id="0209" nameChs="崇文门" nameEn="Chongwenmen" isTransfer="true"         openTime="5:00" closeTime="22:00"/>
+    <Station id="0210" nameChs="北京站" nameEn="Beijing Station" isTransfer="true"    openTime="5:00" closeTime="22:00"/>
+    <Station id="0211" nameChs="建国门" nameEn="Jianguomen" isTransfer="false"         openTime="5:00" closeTime="22:00"/>
+    <Station id="0212" nameChs="朝阳门" nameEn="Chaoyangmen" isTransfer="true"        openTime="5:00" closeTime="22:00"/>
+    <Station id="0213" nameChs="东四十条" nameEn="Dongsishitiao" isTransfer="false"    openTime="5:00" closeTime="22:00"/>
+    <Station id="0214" nameChs="东直门" nameEn="Dongzhimen" isTransfer="true"          openTime="5:00" closeTime="22:00"/>
+    <Station id="0215" nameChs="雍和宫" nameEn="Yonghegong" isTransfer="true"          openTime="5:00" closeTime="22:00"/>
+    <Station id="0216" nameChs="安定门" nameEn="Andingmen" isTransfer="false"          openTime="5:00" closeTime="22:00"/>
+    <Station id="0217" nameChs="鼓楼大街" nameEn="Guloudajie" isTransfer="false"       openTime="5:00" closeTime="22:00"/>
+    <Station id="0218" nameChs="积水潭" nameEn="Jishuitan" isTransfer="false"          openTime="5:00" closeTime="22:00"/>
+
+    <!--4号线-->
+    <Station id="0421" nameChs="龙背村"     nameEn="Longbeicun"       isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0423" nameChs="北宫门"     nameEn="Beigongmen"       isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0425" nameChs="颐和园"     nameEn="Yiheyuan"         isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0427" nameChs="圆明园"     nameEn="Yuanmingyuan"     isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0429" nameChs="城府路"     nameEn="Chengfulu"        isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0431" nameChs="中关村"     nameEn="Zhongguancun"     isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0433" nameChs="黄庄"       nameEn="Huangzhuang"      isTransfer="true"   openTime="5:00" closeTime="22:00"/>
+    <Station id="0435" nameChs="双榆树"     nameEn="Shuangyushu"      isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0437" nameChs="学院南路"   nameEn="Xueyuannanlu"     isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0439" nameChs="白石桥"     nameEn="Baishiqiao"       isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0441" nameChs="动物园"     nameEn="Dongwuyuan"       isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0443" nameChs="西直门"     nameEn="Xizhimen"         isTransfer="true"   openTime="5:00" closeTime="22:00"/>
+    <Station id="0445" nameChs="新街口"     nameEn="Xinjiekou"        isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0447" nameChs="平安里"     nameEn="Pinganli"         isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0449" nameChs="西四"       nameEn="Xisi"             isTransfer="true"   openTime="5:00" closeTime="22:00"/>
+    <Station id="0451" nameChs="灵境胡同"  nameEn="Lingjinghutong"   isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="0453" nameChs="西单"       nameEn="Xidan"            isTransfer="true"   openTime="5:00" closeTime="22:00"/>
+    <Station id="0455" nameChs="宣武门"     nameEn="Xuanwumen"        isTransfer="true"   openTime="5:00" closeTime="22:00"/>
+    <Station id="0457" nameChs="菜市口"     nameEn="Caishikou"        isTransfer="true"   openTime="5:00" closeTime="22:00"/>
+    <Station id="0459" nameChs="陶然亭"     nameEn="Taoranting"       isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0461" nameChs="北京南站"   nameEn="Beijingnanzhan"   isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0463" nameChs="角北门"     nameEn="Jiaobeimen"       isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0465" nameChs="马家堡西路" nameEn="Majiapuxilu"      isTransfer="true"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0467" nameChs="马家楼"     nameEn="Majialou"          isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+
+    <!--5号线 Fix me: 0535 的站是千杨树还是干杨树？-->
+    <Station id="0521" nameChs="太平庄北"    nameEn="Taipingzhuangbei"	isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0523" nameChs="太平庄"      nameEn="Taipingzhuang"	    isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0525" nameChs="天通苑"      nameEn="Tiantongyuan"	    isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0527" nameChs="立水桥北"    nameEn="Lishuiqiaobei"	    isTransfer="true" openTime="5:00" closeTime="22:00"/>
+    <Station id="0529" nameChs="立水桥"      nameEn="Lishuiqiao"	      isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0531" nameChs="大羊坊"      nameEn="Dayangfang"	      isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0533" nameChs="大屯"        nameEn="Datun"	            isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0535" nameChs="千杨树"      nameEn="Qianyangshu"	      isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0537" nameChs="北土城东路"  nameEn="Beituchengdonglu"	isTransfer="true"   openTime="5:00" closeTime="22:00"/>
+    <Station id="0539" nameChs="和平西桥"    nameEn="Hepingxiqiao"	    isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0541" nameChs="和平里北路"  nameEn="Hepinglibeijie"	  isTransfer="true"   openTime="5:00" closeTime="22:00"/>
+    <Station id="0543" nameChs="雍和宫"      nameEn="Yonghegong"	      isTransfer="true"   openTime="5:00" closeTime="22:00"/>
+    <Station id="0545" nameChs="北新桥"      nameEn="Beixinqiao"	      isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0547" nameChs="张自忠路"    nameEn="Zhangzizhonglu"	  isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0549" nameChs="东四"        nameEn="Dongsi"	          isTransfer="true"   openTime="5:00" closeTime="22:00"/>
+    <Station id="0551" nameChs="灯市口"      nameEn="Dengshikou"	      isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0553" nameChs="东单"        nameEn="Dongdan"	          isTransfer="true"   openTime="5:00" closeTime="22:00"/>
+    <Station id="0555" nameChs="崇文门"      nameEn="Chongwenmen"	      isTransfer="true"   openTime="5:00" closeTime="22:00"/>
+    <Station id="0557" nameChs="磁器口"      nameEn="Ciqikou"	          isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0559" nameChs="天坛东门"    nameEn="Tiantandongmen"	  isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0561" nameChs="蒲黄榆"      nameEn="Puhuangyu"	        isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0563" nameChs="刘家窑"      nameEn="Liujiayao"	        isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="0565" nameChs="宋家庄"      nameEn="Songjiazhuang"	    isTransfer="true"   openTime="5:00" closeTime="22:00"/>
+    
+    <!--8号线（奥运支线）-->
+    <Station id="821" nameChs="建材城东路"  nameEn="Jiancaichengdonglu"  isTransfer="true"   openTime="5:00" closeTime="22:00"/>
+    <Station id="823" nameChs="永泰"         nameEn="Yongtai"             isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="825" nameChs="小清河"       nameEn="Xiaoqinghe"          isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="827" nameChs="森林公园"     nameEn="Senlingongyuan"     isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="829" nameChs="奥林匹克公园" nameEn="Aolinpikegongyuan"  isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="831" nameChs="奥体中心"     nameEn="Aotizhongxin"        isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="833" nameChs="熊猫环岛"     nameEn="Xiongmaohuandao"     isTransfer="true"   openTime="5:00" closeTime="22:00"/>
+    <Station id="835" nameChs="安华桥"       nameEn="Anhuaqiao"           isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="837" nameChs="和平里北街"  nameEn="Hepinglibeijie"      isTransfer="true"    openTime="5:00" closeTime="22:00"/>
+    <Station id="839" nameChs="鼓楼大街"    nameEn="Guloudajie"          isTransfer="true"    openTime="5:00" closeTime="22:00"/>
+    <Station id="841" nameChs="地安门"      nameEn="Dianmen"              isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+
+    <!--10号线-->
+    <Station id="1021" nameChs="蓝靛厂"   nameEn="Landianchang"          isTransfer="true"   openTime="5:00" closeTime="22:00"/>
+    <Station id="1023" nameChs="万柳"     nameEn="Wanliu"                  isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="1025" nameChs="苏州街"   nameEn="Suzhoujie"             isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="1027" nameChs="黄庄"     nameEn="Huangzhuang"             isTransfer="true"   openTime="5:00" closeTime="22:00"/>
+    <Station id="1029" nameChs="科南路"   nameEn="Kenanlu"               isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="1031" nameChs="知春路"   nameEn="Zhichunlu"             isTransfer="true"   openTime="5:00" closeTime="22:00"/>
+    <Station id="1033" nameChs="学院路"   nameEn="Xueyuanlu"             isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="1035" nameChs="花园东路" nameEn="Huayuandonglu"       isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="1037" nameChs="八达岭高速" nameEn="Badalinggaosu"     isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="1039" nameChs="熊猫环岛" nameEn="Xiongmaohuandao"     isTransfer="true"   openTime="5:00" closeTime="22:00"/>
+    <Station id="1041" nameChs="安定路"   nameEn="Andinglu"              isTransfer="false"  openTime="5:00" closeTime="22:00"/>
+    <Station id="1043" nameChs="北土城东路" nameEn="Beituchengdonglu" isTransfer="true"    openTime="5:00" closeTime="22:00"/>
+    <Station id="1045" nameChs="芍药居"   nameEn="Shaoyaoju"             isTransfer="true"    openTime="5:00" closeTime="22:00"/>
+    <Station id="1047" nameChs="太阳宫"   nameEn="Taiyanggong"           isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="1049" nameChs="三元桥"   nameEn="Sanyuanqiao"           isTransfer="true"   openTime="5:00" closeTime="22:00"/>
+    <Station id="1051" nameChs="亮马河"   nameEn="Liangmahe"             isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="1053" nameChs="农展馆"   nameEn="Nongzhanguan"          isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="1055" nameChs="工体北路" nameEn="Gongtibeilu"         isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="1057" nameChs="呼家楼"   nameEn="Hujialou"              isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="1059" nameChs="光华路"   nameEn="Guanghualu"            isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="1061" nameChs="国贸"     nameEn="Guomao"                  isTransfer="true"    openTime="5:00" closeTime="22:00"/>
+    <Station id="1063" nameChs="双井"     nameEn="Shuangjing"              isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="1065" nameChs="劲松"     nameEn="Jinsong"                 isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="1067" nameChs="松榆南路" nameEn="Songyunanlu"         isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="1069" nameChs="分钟寺" nameEn="Fenzhongsi"            isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="1071" nameChs="铁匠营" nameEn="Tiejiangying"          isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="1073" nameChs="成寿寺" nameEn="Chengshousi"           isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="1075" nameChs="宋家庄" nameEn="Songjiazhuang"         isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    
+    <!--13号线-->
+    <Station id="1321" nameChs=	"西直门"  nameEn="Xizhimen"	    isTransfer=	"true"     openTime="5:00" closeTime="22:00"/>
+    <Station id="1323" nameChs=	"学院路"  nameEn="Xueyuanlu"   isTransfer=	"true"     openTime="5:00" closeTime="22:00"/>
+    <Station id="1325" nameChs=	"大钟寺"  nameEn="Dazhongshi"	  isTransfer=	"false"	   openTime="5:00" closeTime="22:00"/>
+    <Station id="1327" nameChs=	"知春路"  nameEn="Zhichunlu"	  isTransfer=	"true"	   openTime="5:00" closeTime="22:00"/>
+    <Station id="1329" nameChs=	"北四环西"  nameEn="Beisihuanxi"	  isTransfer=	"true"	   openTime="5:00" closeTime="22:00"/>
+    <Station id="1331" nameChs=	"五道口"  nameEn="Wudaokou"	    isTransfer=	"false"	   openTime="5:00" closeTime="22:00"/>
+    <Station id="1333" nameChs=	"清华东路"  nameEn="Qinghuadonglu"	    isTransfer=	"false"	   openTime="5:00" closeTime="22:00"/>
+    <Station id="1335" nameChs=	"上地"    nameEn="Shangdi"	    isTransfer=	"false"	   openTime="5:00" closeTime="22:00"/>
+    <Station id="1337" nameChs=	"西二旗"	nameEn="Xierqi"	      isTransfer=	"true"	   openTime="5:00" closeTime="22:00"/>
+    <Station id="1339" nameChs=	"龙泽"	  nameEn="Longzhe"	    isTransfer=	"false"	   openTime="5:00" closeTime="22:00"/>
+    <Station id="1341" nameChs=	"回龙观"	nameEn="Huilongguan"	isTransfer=	"false"	   openTime="5:00" closeTime="22:00"/>
+    <Station id="1343" nameChs=	"霍营"	  nameEn="Huoying"	    isTransfer=	"false"	   openTime="5:00" closeTime="22:00"/>
+    <Station id="1345" nameChs=	"建材城东路"	  nameEn="Jiancaichengdonglu"	    isTransfer=	"false"	   openTime="5:00" closeTime="22:00"/>
+    <Station id="1347" nameChs=	"立水桥"	nameEn="Lishuiqiao"	  isTransfer=	"false"	   openTime="5:00" closeTime="22:00"/>
+    <Station id="1349" nameChs=	"北苑"	  nameEn="Beiyuan"	    isTransfer=	"false"	   openTime="5:00" closeTime="22:00"/>
+    <Station id="1351" nameChs=	"来广营西"	  nameEn="Laiguangyingxi"	    isTransfer=	"false"	   openTime="5:00" closeTime="22:00"/>
+    <Station id="1353" nameChs=	"望京西"	nameEn="Wangjingxi"	  isTransfer=	"false"	   openTime="5:00" closeTime="22:00"/>
+    <Station id="1355" nameChs=	"北四环东"	nameEn="Beisihuandong"	  isTransfer=	"false"	   openTime="5:00" closeTime="22:00"/>
+    <Station id="1357" nameChs=	"芍药居"	nameEn="Shaoyaoju"	  isTransfer=	"true"	   openTime="5:00" closeTime="22:00"/>
+    <Station id="1359" nameChs=	"光熙门"	nameEn="Guangximen"	  isTransfer=	"false"	   openTime="5:00" closeTime="22:00"/>
+    <Station id="1361" nameChs=	"柳芳"	  nameEn="Liufang"	    isTransfer=	"false"	   openTime="5:00" closeTime="22:00"/>
+    <Station id="1363" nameChs=	"东直门"	nameEn="Dongzhimen"	  isTransfer=	"true"	   openTime="5:00" closeTime="22:00"/>
+
+    <!--八通线 Fix me: 换乘站真的是四惠东吗？不是四惠？或者说八通就没四惠？-->
+    <Station id="9701" nameChs="四惠"	    nameEn=	"Sihui"	              isTransfer="true"   openTime="5:00" closeTime="22:00"/>
+    <Station id="9702" nameChs="四惠东"	  nameEn=	"Sihuidong"	          isTransfer="true"	   openTime="5:00" closeTime="22:00"/>
+    <Station id="9703" nameChs="高碑店"	  nameEn=	"Gaobidian"	          isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="9704" nameChs="广播学院"	nameEn=	"Broadcast Institute"	isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="9705" nameChs="双桥"	    nameEn=	"Shuangqiao"	        isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="9706" nameChs="管庄"	    nameEn=	"Guanzhuang"	        isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="9707" nameChs="八里桥"	  nameEn=	"Baliqiao"	          isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="9708" nameChs="通州北苑"	nameEn=	"Tongzhoubeiyuan"	    isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="9709" nameChs="果园"	    nameEn=	"Guoyuan"	            isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="9710" nameChs="九棵树"	  nameEn=	"Jiukeshu"	          isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="9711" nameChs="梨园"	    nameEn=	"Liyuan"	            isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="9712" nameChs="临河里"	  nameEn=	"Linheli"	            isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="9713" nameChs="土桥"	    nameEn=	"Tuqiao"	            isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+
+    <!--机场线-->
+    <Station id="3821" nameChs="东直门"	    nameEn=	"Dongzhimen"        isTransfer="true"   openTime="5:00" closeTime="22:00"/>
+    <Station id="3823" nameChs="三元桥"	    nameEn=	"Sanyuanqiao"       isTransfer="true"   openTime="5:00" closeTime="22:00"/>
+    <Station id="3825" nameChs="2号航站楼"	nameEn=	"Terminal 2"        isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <Station id="3827" nameChs="3号航站楼"	nameEn=	"Terminal 3"        isTransfer="false"   openTime="5:00" closeTime="22:00"/>
+    <!--...-->
+  </StationList>
+</root>

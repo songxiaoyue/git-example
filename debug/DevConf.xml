@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="gb2312"?>
+<DeviceConfigure>
+	<Communication>
+		<LineId>02</LineId>
+		<StationId>0230</StationId>
+		<DeviceId>023022209</DeviceId>
+	</Communication>
+</DeviceConfigure>

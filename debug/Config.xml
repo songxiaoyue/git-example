@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+	<System>
+		<MaxCliNum>90</MaxCliNum>						<!--客户端数量包括API和上下级节点，最大不能超过100-->
+		<MaxRcvQueNum>15</MaxRcvQueNum>					<!--接收队列数量，最大不能超过20-->
+		<MaxRouteNum>4</MaxRouteNum>					<!--路由队列数量，最大不能超过50-->
+		<MaxUpNodeNum>5</MaxUpNodeNum>					<!--上级节点数量，最大不能超过50-->
+		<MaxDnNodeNum>50</MaxDnNodeNum>					<!--下级节点数量，最大不能超过100-->
+		<LogLevel>2</LogLevel>							<!--日志级别，0~9-->
+		<LogSize>1024</LogSize>							<!--日志文件最大长度，单位为KBytes，1~65535-->
+		<TimeV>3</TimeV>								<!--核心检测周期，缺省为3秒，最小1秒-->
+		<MsgDataPath>E:\Temp</MsgDataPath>					<!--消息文件存放目录-->
+		<LogDataPath>E:\Temp\Log</LogDataPath>					<!--日志文件存放目录-->
+		<FileDataPath>E:\Temp\File</FileDataPath>				<!--文件消息中文件的存放目录-->
+	</System>
+	
+	<SelfNode>
+		<LocalNodeName>N010A2301</LocalNodeName>		<!--本节点名称-->
+		<ListenPort>20000</ListenPort>					<!--本节点Socket通信端口号-->
+	</SelfNode>
+
+	<!--如果没有上级节点，则下节不存在-->
+	<UpNode>							<!--上级节点的个数不能大于MaxUpNodeNum-->
+		<UpNodeRecord>
+			<UpName>N88888888</UpName>					<!--上级节点名称-->
+			<ConnPort>20000</ConnPort>					<!--上级节点Socket通信端口号-->
+			<NodeIP>109.52.18.234</NodeIP>				<!--上级节点的IP地址-->
+			<ConnWaitTime>30</ConnWaitTime>				<!--上级节点重新建立连接等待时间，单位秒-->
+		</UpNodeRecord>
+	</UpNode>
+
+
+
+
+	<!--如果没有发送队列，则下节不存在-->
+	<SendQueue>							<!--发送队列的个数不能大于MaxUpNodeNum + MaxDnNodeNum-->
+
+		<SendQueueRecord>
+			<QueDestNode>N88888888</QueDestNode>			<!--节点名称-->
+			<QueRecordNum>10</QueRecordNum>					<!--队列中消息记录数限制-->
+		</SendQueueRecord>	
+
+	</SendQueue>
+
+	<!--如果没有接收队列，则下节不存在-->
+	<RecvQueue>							<!--死信队列和接收队列的个数不能大于MaxRcvQueNum-->
+		<RecvQueueRecord>
+			<QueRcvName>Sle_Para</QueRcvName>				<!--接收队列名称-->
+			<QueRecordNum>100</QueRecordNum>					<!--队列中消息记录数限制-->
+			<QueSaveMode>Disk</QueSaveMode>					<!--队列中消息存储模式-->
+		</RecvQueueRecord>
+		<RecvQueueRecord>
+			<QueRcvName>Sle_Cmd</QueRcvName>				<!--接收队列名称-->
+			<QueRecordNum>90</QueRecordNum>					<!--队列中消息记录数限制-->
+			<QueSaveMode>Buff</QueSaveMode>					<!--队列中消息存储模式-->
+		</RecvQueueRecord>	
+	</RecvQueue>
+
+	<!--如果没有死信队列，则下节不存在-->
+	<DeadLetterQueue>					<!--死信队列和接收队列的个数不能大于MaxRcvQueNum-->
+		<DeadLetterQueueRecord>
+			<QueRcvName>Sle_Dead_Letter</QueRcvName>	<!--接收队列名称-->
+			<QueRecordNum>60</QueRecordNum>					<!--队列中消息记录数限制-->
+		</DeadLetterQueueRecord>
+	</DeadLetterQueue>
+</Config>

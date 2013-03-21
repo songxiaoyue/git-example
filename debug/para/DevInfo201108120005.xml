@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DevInfo>
+<!--版本信息-->
+<Version VersionId="DevInfo201108120005" VersionDate="20110812163725" VersionType="1" VersionValidate="20110812163718" ValidateType="1" InValidateTime="20110812163725" VersionSystem="0123" VersionOper="000000" FormatVersion="01" />
+<!--设备区账户信息-->
+<CornerAccount StationId="0227" CornerId ="01" CornerName ="东厅" UpdateFlag ="1" />
+<CornerAccount StationId="0227" CornerId ="02" CornerName ="西厅" UpdateFlag ="1" />
+<!--设备账户信息-->
+<DeviceAccount DeviceId="022720501" HWTypeCode="20" StationId="0227" CornerId ="01" DeviceName="0227BOM01" IPAddress =" 10.2.27.51" DeviceProviderId = "01" UpdateFlag ="1" />
+<DeviceAccount DeviceId="022720502" HWTypeCode="20" StationId="0227" CornerId ="01" DeviceName="0227BOM02" IPAddress =" 10.2.27.52" DeviceProviderId = "01" UpdateFlag ="1" />
+<DeviceAccount DeviceId="022701001" HWTypeCode="01" StationId="0227" CornerId ="01" DeviceName="0227SC001" IPAddress =" 10.2.27.50" DeviceProviderId = "01" UpdateFlag ="1" />
+</DevInfo>

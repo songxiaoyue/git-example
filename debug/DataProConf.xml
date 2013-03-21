@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="gb2312"?>
+<DataProConfigure>
+  <Communication>
+    <MsgExpiry>300</MsgExpiry>
+    <FileExpiry>300</FileExpiry>
+    <RecvTimeout>0</RecvTimeout>
+    <UpTransRecvName>Scs_Trans</UpTransRecvName>
+    <UpAuditRecvName>Scs_Audit</UpAuditRecvName>
+    <UpStatusRecvName>Scs_Status</UpStatusRecvName>
+    <UpBizRecvName>Scs_Biz</UpBizRecvName>
+    <UpCmdRecvName>Scs_Cmd</UpCmdRecvName>
+    <UpParaRecvName>Scs_Para</UpParaRecvName>
+  </Communication>
+  <Local>
+    <MiddlewarePath>d:\MOM_Server\</MiddlewarePath>
+    <ParaFilePath>.\para\</ParaFilePath>
+    <UploadFilePath>.\upload_file\</UploadFilePath>
+    <BackFilePath>.\backup_file\</BackFilePath>
+    <LogFilePath>.\log\</LogFilePath>
+    <ImportDataDirectory>cdafc_para</ImportDataDirectory>
+    <ExportDataDirectory>cdafc_data</ExportDataDirectory>
+    <UploadFileSaveDay>7</UploadFileSaveDay>
+    <BackFileSaveDay>7</BackFileSaveDay>
+    <ControlOkWaitTime>180</ControlOkWaitTime>
+    <LogLevel>1</LogLevel>
+    <LogSize>2048</LogSize>
+  </Local>
+</DataProConfigure>

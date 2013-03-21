@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Station>
+  <!--版本信息-->
+  <Version VersionId="yyd201208310002" VersionDate="20120831113401" VersionType="1" VersionValidate="20120831113401" ValidateType="1" InValidateTime="20120831113401" VersionSystem="00" VersionOper="000000" FormatVersion="01" />
+  <!--运营点信息-->
+  <StationBaseInfo>
+    <BasicInfo Id="0000000221" Name="犀浦" StationName_En="Xipu" StationNo_Ex="0000000221" Default_StoreId="0221" />
+    <BasicInfo Id="0000000222" Name="天河路" StationName_En="Tianhe Road" StationNo_Ex="0000000222" Default_StoreId="0222" />
+    <BasicInfo Id="0000000223" Name="百草路" StationName_En="Baicao Road " StationNo_Ex="0000000223" Default_StoreId="0223" />
+    <BasicInfo Id="0000000224" Name="金周路" StationName_En="Jinzhou Road" StationNo_Ex="0000000224" Default_StoreId="0224" />
+    <BasicInfo Id="0000000225" Name="金科北路" StationName_En="Jinke Road North" StationNo_Ex="0000000225" Default_StoreId="0225" />
+    <BasicInfo Id="0000000226" Name="迎宾大道" StationName_En="Yingbin Avenue" StationNo_Ex="0000000226" Default_StoreId="0226" />
+    <BasicInfo Id="0000000227" Name="茶店子客运站" StationName_En="Chadianzi Bus Terminal" StationNo_Ex="0000000227" Default_StoreId="0227" />
+    <BasicInfo Id="0000000228" Name="羊犀立交" StationName_En="Yangxi Flyover" StationNo_Ex="0000000228" Default_StoreId="0228" />
+    <BasicInfo Id="0000000229" Name="一品天下" StationName_En="Yipintianxia" StationNo_Ex="0000000229" Default_StoreId="0229" />
+    <BasicInfo Id="0000000230" Name="蜀汉路东" StationName_En="East Shuhan Road" StationNo_Ex="0000000230" Default_StoreId="0230" />
+    <BasicInfo Id="0000000231" Name="白果林" StationName_En="Baiguolin" StationNo_Ex="0000000231" Default_StoreId="0231" />
+    <BasicInfo Id="0000000232" Name="中医大省医院" StationName_En="Chengdu University of TCM &amp; Sichuan Provincial People's Hospital" StationNo_Ex="0000000232" Default_StoreId="0232" />
+    <BasicInfo Id="0000000233" Name="通惠门" StationName_En="Tonghuimen" StationNo_Ex="0000000233" Default_StoreId="0233" />
+    <BasicInfo Id="0000000234" Name="人民公园" StationName_En="People’s Park" StationNo_Ex="0000000234" Default_StoreId="0234" />
+    <BasicInfo Id="0000000236" Name="春熙路" StationName_En="Chunxi Road" StationNo_Ex="0000000236" Default_StoreId="0236" />
+    <BasicInfo Id="0000000237" Name="东门大桥" StationName_En="Dongmen Bridge" StationNo_Ex="0000000237" Default_StoreId="0237" />
+    <BasicInfo Id="0000000238" Name="牛王庙" StationName_En="Niuwangmiao" StationNo_Ex="0000000238" Default_StoreId="0238" />
+    <BasicInfo Id="0000000239" Name="牛市口" StationName_En="Niushikou" StationNo_Ex="0000000239" Default_StoreId="0239" />
+    <BasicInfo Id="0000000240" Name="东大路" StationName_En="Dongda Road" StationNo_Ex="0000000240" Default_StoreId="0240" />
+    <BasicInfo Id="0000000241" Name="塔子山公园" StationName_En="Tazishan Park" StationNo_Ex="0000000241" Default_StoreId="0241" />
+    <BasicInfo Id="0000000242" Name="成都东客站" StationName_En="East Chengdu Railway Station" StationNo_Ex="0000000242" Default_StoreId="0242" />
+    <BasicInfo Id="0000000243" Name="成渝立交" StationName_En="Chengyu Flyover" StationNo_Ex="0000000243" Default_StoreId="0243" />
+    <BasicInfo Id="0000000244" Name="惠王陵" StationName_En="Huiwangling" StationNo_Ex="0000000244" Default_StoreId="0244" />
+    <BasicInfo Id="0000000245" Name="洪河" StationName_En="Honghe" StationNo_Ex="0000000245" Default_StoreId="0245" />
+    <BasicInfo Id="0000000246" Name="成都行政学院" StationName_En="Chengdu Institute of Public Administration" StationNo_Ex="0000000246" Default_StoreId="0246" />
+    <BasicInfo Id="0000000247" Name="林家大堰站" StationName_En="Linjiadayan" StationNo_Ex="0000000247" Default_StoreId="0247" />
+    <BasicInfo Id="0000000248" Name="龙泉西站" StationName_En="Longquan west" StationNo_Ex="0000000248" Default_StoreId="0248" />
+    <BasicInfo Id="0000000249" Name="东风渠站" StationName_En="Dongfengqu" StationNo_Ex="0000000249" Default_StoreId="0249" />
+    <BasicInfo Id="0000000250" Name="龙泉站" StationName_En="Longquan" StationNo_Ex="0000000250" Default_StoreId="0250" />
+    <BasicInfo Id="0000000251" Name="保安村站" StationName_En="Bao'an Village" StationNo_Ex="0000000251" Default_StoreId="0251" />
+    <BasicInfo Id="0000000252" Name="龙泉东站" StationName_En="Longquan east" StationNo_Ex="0000000252" Default_StoreId="0252" />
+    <BasicInfo Id="0000000125" Name="骡马市" StationName_En="Loumashi" StationNo_Ex="0000000125" Default_StoreId="0125" />
+    <BasicInfo Id="0000000126" Name="天府广场" StationName_En="Tianfu Square" StationNo_Ex="0000000126" Default_StoreId="0126" />
+    <BasicInfo Id="0000000131" Name="桐梓林" StationName_En="Tongzilin" StationNo_Ex="0000000131" Default_StoreId="0131" />
+    <BasicInfo Id="0000000121" Name="升仙湖" StationName_En="ShengXian  Lake" StationNo_Ex="0000000121" Default_StoreId="0121" />
+    <BasicInfo Id="0000000122" Name="火车北" StationName_En="North Railway Station" StationNo_Ex="0000000122" Default_StoreId="0122" />
+    <BasicInfo Id="0000000133" Name="高新站" StationName_En="Hi-Tech Zone" StationNo_Ex="0000000133" Default_StoreId="0133" />
+    <BasicInfo Id="0000000127" Name="锦江宾馆" StationName_En="Jinjiang Hotel" StationNo_Ex="0000000127" Default_StoreId="0127" />
+    <BasicInfo Id="0000000130" Name="倪家桥" StationName_En="Nijiaqiao" StationNo_Ex="0000000130" Default_StoreId="0130" />
+    <BasicInfo Id="0000000134" Name="金融城" StationName_En="Administration Center" StationNo_Ex="0000000134" Default_StoreId="0134" />
+    <BasicInfo Id="0000000123" Name="人民北路" StationName_En="RenMin Rd.North" StationNo_Ex="0000000123" Default_StoreId="0123" />
+    <BasicInfo Id="0000000128" Name="华西坝" StationName_En="Huaxiba" StationNo_Ex="0000000128" Default_StoreId="0128" />
+    <BasicInfo Id="0000000135" Name="孵化园" StationName_En="Incubation Park" StationNo_Ex="0000000135" Default_StoreId="0135" />
+    <BasicInfo Id="0000000124" Name="文殊院" StationName_En="Wenshu Monastory" StationNo_Ex="0000000124" Default_StoreId="0124" />
+    <BasicInfo Id="0000000129" Name="省体育馆" StationName_En="Sichuan Gymnasium" StationNo_Ex="0000000129" Default_StoreId="0129" />
+    <BasicInfo Id="0000000132" Name="火车南" StationName_En="Sourth Railway Station" StationNo_Ex="0000000132" Default_StoreId="0132" />
+    <BasicInfo Id="0000000136" Name="海洋公园" StationName_En="Ocean Park" StationNo_Ex="0000000136" Default_StoreId="0136" />
+    <BasicInfo Id="0000000137" Name="世纪城" StationName_En="Century City" StationNo_Ex="0000000137" Default_StoreId="0137" />
+  </StationBaseInfo>
+  <!--车站信息-->
+  <StationInfo>
+    <BasicInfo StationId="00" StationName="成都小清分" StoreId="00" StationBaseId="0000000000" />
+    <BasicInfo StationId="01" StationName="成都地铁" StoreId="01" StationBaseId="0000000100" />
+    <BasicInfo StationId="0121" StationName="升仙湖" StoreId="0121" StationBaseId="0000000121" />
+    <BasicInfo StationId="0122" StationName="火车北" StoreId="0122" StationBaseId="0000000122" />
+    <BasicInfo StationId="0123" StationName="人民北路" StoreId="0123" StationBaseId="0000000123" />
+    <BasicInfo StationId="0124" StationName="文殊院" StoreId="0124" StationBaseId="0000000124" />
+    <BasicInfo StationId="0125" StationName="骡马市" StoreId="0125" StationBaseId="0000000125" />
+    <BasicInfo StationId="0126" StationName="天府广场" StoreId="0126" StationBaseId="0000000126" />
+    <BasicInfo StationId="0127" StationName="锦江宾馆" StoreId="0127" StationBaseId="0000000127" />
+    <BasicInfo StationId="0128" StationName="华西坝" StoreId="0128" StationBaseId="0000000128" />
+    <BasicInfo StationId="0129" StationName="省体育馆" StoreId="0129" StationBaseId="0000000129" />
+    <BasicInfo StationId="0130" StationName="倪家桥" StoreId="0130" StationBaseId="0000000130" />
+    <BasicInfo StationId="0131" StationName="桐梓林" StoreId="0131" StationBaseId="0000000131" />
+    <BasicInfo StationId="0132" StationName="火车南" StoreId="0132" StationBaseId="0000000132" />
+    <BasicInfo StationId="0133" StationName="高新站" StoreId="0133" StationBaseId="0000000133" />
+    <BasicInfo StationId="0134" StationName="金融城" StoreId="0134" StationBaseId="0000000134" />
+    <BasicInfo StationId="0135" StationName="孵化园" StoreId="0135" StationBaseId="0000000135" />
+    <BasicInfo StationId="0136" StationName="海洋公园" StoreId="0136" StationBaseId="0000000136" />
+    <BasicInfo StationId="0137" StationName="世纪城" StoreId="0137" StationBaseId="0000000137" />
+    <BasicInfo StationId="02" StationName="成都地铁线二号" StoreId="02" StationBaseId="0000000200" />
+    <BasicInfo StationId="0221" StationName="犀浦" StoreId="0221" StationBaseId="0000000221" />
+    <BasicInfo StationId="0222" StationName="天河路" StoreId="0222" StationBaseId="0000000222" />
+    <BasicInfo StationId="0223" StationName="百草路" StoreId="0223" StationBaseId="0000000223" />
+    <BasicInfo StationId="0224" StationName="金周路" StoreId="0224" StationBaseId="0000000224" />
+    <BasicInfo StationId="0225" StationName="金科北路" StoreId="0225" StationBaseId="0000000225" />
+    <BasicInfo StationId="0226" StationName="迎宾大道" StoreId="0226" StationBaseId="0000000226" />
+    <BasicInfo StationId="0227" StationName="茶店子客运站" StoreId="0227" StationBaseId="0000000227" />
+    <BasicInfo StationId="0228" StationName="羊犀立交" StoreId="0228" StationBaseId="0000000228" />
+    <BasicInfo StationId="0229" StationName="一品天下" StoreId="0229" StationBaseId="0000000229" />
+    <BasicInfo StationId="0230" StationName="蜀汉路东" StoreId="0230" StationBaseId="0000000230" />
+    <BasicInfo StationId="0231" StationName="白果林" StoreId="0231" StationBaseId="0000000231" />
+    <BasicInfo StationId="0232" StationName="中医大省医院" StoreId="0232" StationBaseId="0000000232" />
+    <BasicInfo StationId="0233" StationName="通惠门" StoreId="0233" StationBaseId="0000000233" />
+    <BasicInfo StationId="0234" StationName="人民公园" StoreId="0234" StationBaseId="0000000234" />
+    <BasicInfo StationId="0236" StationName="春熙路" StoreId="0236" StationBaseId="0000000236" />
+    <BasicInfo StationId="0237" StationName="东门大桥" StoreId="0237" StationBaseId="0000000237" />
+    <BasicInfo StationId="0238" StationName="牛王庙" StoreId="0238" StationBaseId="0000000238" />
+    <BasicInfo StationId="0239" StationName="牛市口" StoreId="0239" StationBaseId="0000000239" />
+    <BasicInfo StationId="0240" StationName="东大路" StoreId="0240" StationBaseId="0000000240" />
+    <BasicInfo StationId="0241" StationName="塔子山公园" StoreId="0241" StationBaseId="0000000241" />
+    <BasicInfo StationId="0242" StationName="成都东客站" StoreId="0242" StationBaseId="0000000242" />
+    <BasicInfo StationId="0243" StationName="成渝立交" StoreId="0243" StationBaseId="0000000243" />
+    <BasicInfo StationId="0244" StationName="惠王陵" StoreId="0244" StationBaseId="0000000244" />
+    <BasicInfo StationId="0245" StationName="洪河" StoreId="0245" StationBaseId="0000000245" />
+    <BasicInfo StationId="0246" StationName="成都行政学院" StoreId="0246" StationBaseId="0000000246" />
+    <BasicInfo StationId="0247" StationName="林家大堰站" StoreId="0247" StationBaseId="0000000247" />
+    <BasicInfo StationId="0248" StationName="龙泉西站" StoreId="0248" StationBaseId="0000000248" />
+    <BasicInfo StationId="0249" StationName="东风渠站" StoreId="0249" StationBaseId="0000000249" />
+    <BasicInfo StationId="0250" StationName="龙泉站" StoreId="0250" StationBaseId="0000000250" />
+    <BasicInfo StationId="0251" StationName="保安村站" StoreId="0251" StationBaseId="0000000251" />
+    <BasicInfo StationId="0252" StationName="龙泉东站" StoreId="0252" StationBaseId="0000000252" />
+  </StationInfo>
+  <!--线路信息-->
+  <LineBaseInfo>
+    <BasicInfo Id="01" Name="一号线" IsDefaultLine="1">
+      <StationList StationBaseId="0000000121" SortId="1" />
+      <StationList StationBaseId="0000000122" SortId="2" />
+      <StationList StationBaseId="0000000123" SortId="3" />
+      <StationList StationBaseId="0000000124" SortId="4" />
+      <StationList StationBaseId="0000000125" SortId="5" />
+      <StationList StationBaseId="0000000126" SortId="6" />
+      <StationList StationBaseId="0000000127" SortId="7" />
+      <StationList StationBaseId="0000000128" SortId="8" />
+      <StationList StationBaseId="0000000129" SortId="9" />
+      <StationList StationBaseId="0000000130" SortId="10" />
+      <StationList StationBaseId="0000000131" SortId="11" />
+      <StationList StationBaseId="0000000132" SortId="12" />
+      <StationList StationBaseId="0000000133" SortId="13" />
+      <StationList StationBaseId="0000000134" SortId="14" />
+      <StationList StationBaseId="0000000135" SortId="15" />
+      <StationList StationBaseId="0000000136" SortId="16" />
+      <StationList StationBaseId="0000000137" SortId="17" />
+    </BasicInfo>
+    <BasicInfo Id="02" Name="二号线" IsDefaultLine="1">
+      <StationList StationBaseId="0000000227" SortId="1" />
+      <StationList StationBaseId="0000000228" SortId="2" />
+      <StationList StationBaseId="0000000229" SortId="3" />
+      <StationList StationBaseId="0000000230" SortId="4" />
+      <StationList StationBaseId="0000000231" SortId="5" />
+      <StationList StationBaseId="0000000232" SortId="6" />
+      <StationList StationBaseId="0000000233" SortId="7" />
+      <StationList StationBaseId="0000000234" SortId="8" />
+      <StationList StationBaseId="0000000236" SortId="9" />
+      <StationList StationBaseId="0000000237" SortId="10" />
+      <StationList StationBaseId="0000000238" SortId="11" />
+      <StationList StationBaseId="0000000239" SortId="12" />
+      <StationList StationBaseId="0000000240" SortId="13" />
+      <StationList StationBaseId="0000000241" SortId="14" />
+      <StationList StationBaseId="0000000242" SortId="15" />
+      <StationList StationBaseId="0000000243" SortId="16" />
+      <StationList StationBaseId="0000000244" SortId="17" />
+      <StationList StationBaseId="0000000245" SortId="18" />
+      <StationList StationBaseId="0000000246" SortId="19" />
+      <StationList StationBaseId="0000000126" SortId="21" />
+    </BasicInfo>
+  </LineBaseInfo>
+  <!--区段信息-->
+  <AreaBaseInfo>
+    <BasicInfo Id="0001" Name="科技园区段" />
+  </AreaBaseInfo>
+</Station>

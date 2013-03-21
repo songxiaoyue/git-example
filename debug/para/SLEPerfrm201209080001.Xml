@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SLEPerfrm>
+  <!--版本信息-->
+  <Version VersionId="SLEPerfrm201209080001" VersionDate="20120908165820" VersionType="1" VersionValidate="20120908165815" ValidateType="1" VersionSystem="01" VersionOper="000000" FormatVersion="01" />
+  <!--通用运营控制参数-->
+  <CommonParam WorkstationLogoutIdleTime="1800" PCAParaSyncInterval="365" MaxExitTimeAfterUpdate="30" />
+  <!--AGM运营控制参数-->
+  <AGMParam DoorDefaultStatus="2" AGMLogoutIdleTime="600" AGMAllowOpenDoorTime="60" AGMTimeoutLimit="10" AGMDisplayTimeoutLimit="10" />
+  <!--TVM运营控制参数-->
+  <TVMParam TVMIfClearCoinAtDayEnd="0" TVMIfShowAdvWhenNouse="0" TVMOnceSaleTicketMaxQty="10" TVMSaleUsableBillList="0011000000000000" TVMAddValueUsableBillList="0001111000000000" TVMMaxChangeAmount="1800" TVMLogoutIdleTime="1320" TVMAllowOpenDoorTime="60" TVMTimeoutLimit="45" TVMCoinSafeStock="18" TVMCoinNearFullQty="1800" TVMCoinFullQty="1900" TVMBillNearFullQty="800" TVMBillFullQty="1000" />
+  <!--BOM运营控制参数-->
+  <BOMParam BOMLogoutIdleTm="1800" BOMBatchSaleTicketMaxQty="20" FreeUpdateTimeLimit="3600" />
+</SLEPerfrm>

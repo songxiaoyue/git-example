@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<LocalParam Ver="0.0.0.7" CreateDate="2012-6-29" Author="tianby">
+  <GeneralCtrl>
+    <ARSnapTimer>15</ARSnapTimer>
+    <ProWayStoreOver>0</ProWayStoreOver>
+  </GeneralCtrl>
+  <StatusParam>
+    <EnableStateChkTimer>15000</EnableStateChkTimer>
+    <TkJamChkTimer>5000</TkJamChkTimer>
+    <SwUpdateChkTimer>60000</SwUpdateChkTimer>
+    <RebootDays>3</RebootDays>
+    <FailTkWaitTimer>3000</FailTkWaitTimer>
+  </StatusParam>
+
+  <APPLOG>
+    <LogLevel>10</LogLevel>
+    <DataLogLevel>1</DataLogLevel>
+    <TcuLogFlag>0</TcuLogFlag>
+    <PcuLogFlag>0</PcuLogFlag>
+    <RdrLogFlag>1</RdrLogFlag>
+    <MtpLogFlag>1</MtpLogFlag>
+  </APPLOG>
+
+  <EmployeeCard>
+    <MonthTimesLimit>500</MonthTimesLimit>
+    <PurseTimesLimit>500</PurseTimesLimit>
+  </EmployeeCard>
+
+  <OCT>
+    <TransferFlag>3</TransferFlag>
+    <PointBonusFlag>0</PointBonusFlag>
+    <PointBonusStartDate>000000</PointBonusStartDate>
+    <PointBonusLimit>200</PointBonusLimit>
+  </OCT>
+  
+  <DisplayParam>
+    <!--动态显示画面停留时间-->
+    <StayTimeOut>2000</StayTimeOut>
+    <!--缺省模式下刷卡/插卡画面切换时间-->
+    <IdleTimeOut>2000</IdleTimeOut>
+  </DisplayParam>
+
+  <PassageParam>
+   <MaxMemory>8</MaxMemory>
+    <ChildDetect>1</ChildDetect>
+    <PassageCancel>0</PassageCancel>
+    <DetectIntrusion>1</DetectIntrusion>
+    <SafeZoneDefine>1</SafeZoneDefine>
+    
+    <FlapCloseTimeOut>0</FlapCloseTimeOut>
+    <ContinueFlowTimeOut>15</ContinueFlowTimeOut>
+    <MaxSensorATimeOut>20</MaxSensorATimeOut>
+    <MaxSensorBTimeOut>600</MaxSensorBTimeOut>
+    <PassTimeOut>15</PassTimeOut>
+    <OnlineTimeOut>60</OnlineTimeOut>
+    <LocalMode>17</LocalMode>
+    <BuzzerOnTimeOut>5</BuzzerOnTimeOut>
+    <BuzzerWaitTimeOut>2</BuzzerWaitTimeOut>
+    <LeaveAisleTimeOut>40</LeaveAisleTimeOut>
+    <SensorSelfTestTimeOut>180</SensorSelfTestTimeOut>
+    <PollDetectTimeOut>70</PollDetectTimeOut>
+    <StopPauseTimeOut>20</StopPauseTimeOut>
+    <OpenPauseTimeOut>0</OpenPauseTimeOut>
+    <OverSafeSensorTimeOut>20</OverSafeSensorTimeOut>
+    <DetectZoneValid>0</DetectZoneValid>
+    <SafeSensorFraudPrvent>1</SafeSensorFraudPrvent>
+    <FraudAlarmTimeOut>0</FraudAlarmTimeOut>
+    <FlapPreClose>1</FlapPreClose>   
+  </PassageParam>
+
+  <IOParam>
+    <PassAuthPulseWidth>150</PassAuthPulseWidth>
+    <PassAckPulsWidth>50</PassAckPulsWidth>
+    <ReaderResetTimeOut>10</ReaderResetTimeOut>
+    <TcuResetTimeOut>20</TcuResetTimeOut>
+    <DoorSwitchTimeOut>20</DoorSwitchTimeOut>
+    <CeilingBackTimeOut>20</CeilingBackTimeOut>
+    <LocalSwitchTimeOut>20</LocalSwitchTimeOut>
+    <RedLampTimeOut>2000</RedLampTimeOut>
+    <GreenLampTimeOut>2000</GreenLampTimeOut>
+    <OrangeLampTimeOut>2000</OrangeLampTimeOut>
+    <WhiteLampTimeOut>2000</WhiteLampTimeOut>
+  </IOParam>
+
+  <TCUParam>
+    <TkDetectMode>255</TkDetectMode>
+    <ReturnTkMode>18</ReturnTkMode>
+    <MotorRunMode>01</MotorRunMode>
+    <SpeedMode>00</SpeedMode>
+    <MotorRunTimeOut>15</MotorRunTimeOut>
+    <TransTimeOut>10</TransTimeOut>
+    <InitProcessWay>3</InitProcessWay>
+    <TcuRetryTimes>1</TcuRetryTimes>
+    <StackNum>100</StackNum>
+  </TCUParam>
+
+  <ReaderParam>
+    <ContinueErrTimes>7</ContinueErrTimes>
+  </ReaderParam>
+
+  <MtpParam>
+    <WakeUpTimeOut>5</WakeUpTimeOut>
+  </MtpParam>
+  
+  <VoiceParam>
+    <Volume>65535</Volume>
+  </VoiceParam>
+  
+</LocalParam>

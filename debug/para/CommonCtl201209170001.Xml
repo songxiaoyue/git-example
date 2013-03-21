@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--ACC运营控制参数-->
+<CommonControl>
+  <!--版本信息-->
+  <Version VersionId="CommonCtl201209170001" VersionDate="20120917235727" VersionType="1" VersionValidate="20120917235724" ValidateType="1" VersionSystem="01" VersionOper="000000" FormatVersion="01" />
+  <!--ACC运营控制参数-->
+  <CommonParam RunPoint="030000" PMaxMemo="11" SyncInterval="15" SyncAllowDiff="1000" SyncRefuseDiff="120000" BizDayExtendMinutes="1440" EmergencyModeExtendTime="3" TrainFaultModeExtendTime="3" />
+</CommonControl>

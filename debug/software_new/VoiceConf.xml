@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<VoiceConfigure Ver="0.0.0.2" CreateDate="2006-11-21" Author="hangwei">
+
+  <VoiceList>
+    <!--id=001: 语音测试-->
+    <Voice id="001" filename=".\voice\Test.wav"/>
+    <!--id=100: 请刷卡-->
+    <Voice id="100" filename=".\voice\PresentTk.wav"/>
+    <!--id=101: 插入回收口提示-->
+    <Voice id="101" filename=".\voice\InsertTk.wav"/>
+    <!--id=102: 过期车票提示-->
+    <Voice id="102" filename=".\voice\ExpireTk.wav"/>
+    <!--id=103: 请充值提示-->
+    <Voice id="103" filename=".\voice\RechargeTk.wav"/>
+    <!--id=104: 取票亭处理提示-->
+    <Voice id="104" filename=".\voice\GoBom.wav"/>
+    <!--id=105: 请站务员处理提示-->
+    <Voice id="105" filename=".\voice\SeeStaff.wav"/>
+    <!--id=106: 请买票提示-->
+    <Voice id="106" filename=".\voice\BuyTk.wav"/>
+    <!--id=107: 无效票提示-->
+    <Voice id="107" filename=".\voice\InvalidTk.wav"/>
+    <!--id=108: 请确认车票提示-->
+    <Voice id="108" filename=".\voice\CheckTk.wav"/>
+    <!--id=109: 请补票提示-->
+    <Voice id="109" filename=".\voice\LowBalance.wav"/>
+    <!--id=110: 请再刷一次提示-->
+    <Voice id="110" filename=".\voice\TryAgain.wav"/>
+    <!--id=111: 多张车票提示-->
+    <Voice id="111" filename=".\voice\NoMultiTk.wav"/>
+    <!--id=112: 使用其它通道提示-->
+    <Voice id="112" filename=".\voice\AnotherGate.wav"/>
+    <!--id=200: 尾随提示-->
+    <Voice id="200" filename=".\voice\请不要尾随.wav"/>
+    <!--id=201: 退出闸机通道提示-->
+    <Voice id="201" filename=".\voice\请你退出闸机通道.wav"/>
+    <!--id=202: 反向通行提示-->
+    <Voice id="202" filename=".\voice\通行错误.wav"/>
+    <!--id=203: 请充值提示-->
+    <Voice id="203" filename=".\voice\请充值.wav"/>
+    <!--id=204: 去售票处处理提示-->
+    <Voice id="204" filename=".\voice\请到售票处验票.wav"/>
+    <!--id=205: 回收票提示-->
+    <Voice id="205" filename=".\voice\请将单程票投入回收口.wav"/>
+    <!--id=206: 重新刷卡提示-->
+    <Voice id="206" filename=".\voice\请重新刷卡.wav"/>
+    <!--id=210: 优惠票提示-->
+    <Voice id="210" filename=".\voice\优惠票.wav"/>
+    <!--id=211: 员工票提示-->
+    <Voice id="211" filename=".\voice\员工票.wav"/>
+    <!--id=212: 学生票提示-->
+    <Voice id="212" filename=".\voice\学生票.wav"/>
+    <!--id=213: 老人票提示-->
+    <Voice id="213" filename=".\voice\老人票.wav"/>
+    <!--id=214: 公安票提示-->
+    <Voice id="214" filename=".\voice\公安票.wav"/>
+    <!--id=215: 外服票提示-->
+    <Voice id="215" filename=".\voice\外服票.wav"/>
+    <!--id=216: 无效票提示-->
+    <Voice id="216" filename=".\voice\无效票.wav"/>
+</VoiceList>
+
+</VoiceConfigure>

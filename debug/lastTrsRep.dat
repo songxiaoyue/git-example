@@ -1,0 +1,32 @@
+[LastTrsReceipt]
+1=     成 都 市 轨 道 交 通
+2=     Chengdu Subway System
+3=      发 售 异 常 凭 据
+4=      Issuing  Receipt
+5=  
+6=======================================
+7= 发售异常, 请凭此凭据洽客服中心处理  
+8=Issuing failed,please contact CUC
+9=======================================
+10=TVMID:023022209, RepNo:2
+11=发售时间: 2012-09-08 11:01:57  
+12=Issuing time.
+13=发售的票卡种类：98_单程票
+14=Tiket type.
+15=选择发售的票卡数量：9
+16=Requesed tickets.
+17=单张票卡金额：￥4.00
+18=Ticket Balance.
+19=TVM 接收现金：￥40.00
+20=Received RMB.
+21=发售成功的票卡数量：  3
+22=Issued tickets.
+23=找零金额:￥4.00
+24=Change RMB.
+25=故障原因：  找零金额不足
+26=Fail Reason:Without enough change
+27=应退金额:  ￥24.00
+28=Refund RMB.
+29=  
+30========================================
+TotalLines=30

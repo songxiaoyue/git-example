@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StationMap>
+	<!--版本信息-->
+	<Version VersionId="tvm201209060001" VersionDate="20120906215300" VersionType="1" VersionValidate="20120906215300" ValidateType="1" InValidateTime="20120820093526" VersionsSystem="00" VersionOper="000000" FormatVersion="01"/>
+	<!--TVM售票地图信息-->
+	<ResolutionInfo ResolutionId="03" Content="1024*768">
+		<GlobalInfo ImageName="主界面.png" StationCount="48">
+			<StationInfo StationId="0000000121" IsUse="1" X="508.95" Y="110.9" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000122" IsUse="1" X="508.95" Y="157.3" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000123" IsUse="1" X="509.9" Y="206.6" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000124" IsUse="1" X="509.9" Y="255.9" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000125" IsUse="1" X="485.25" Y="309.90000000000003" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000126" IsUse="1" X="484.3" Y="370.55" W="30" H="30" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000127" IsUse="1" X="484.3" Y="411.3" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000128" IsUse="1" X="483.35" Y="450.15000000000003" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000129" IsUse="1" X="484.3" Y="489" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000130" IsUse="1" X="484.3" Y="528.8" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000131" IsUse="1" X="484.3" Y="567.7" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000132" IsUse="1" X="484.3" Y="609.4" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000133" IsUse="1" X="484.3" Y="644.45" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000134" IsUse="1" X="483.35" Y="685.2" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000135" IsUse="1" X="484.3" Y="722.15" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000136" IsUse="0" X="0" Y="0" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000137" IsUse="1" X="484.3" Y="801.75" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000221" IsUse="1" X="0" Y="0" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000222" IsUse="1" X="0" Y="0" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000223" IsUse="1" X="0" Y="0" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000224" IsUse="1" X="0" Y="0" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000225" IsUse="1" X="0" Y="0" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000226" IsUse="1" X="0" Y="0" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000227" IsUse="1" X="215.1" Y="259.35" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000228" IsUse="1" X="246.2" Y="278.45" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000229" IsUse="1" X="271.3" Y="298.75" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000230" IsUse="1" X="299.95" Y="321.45" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000231" IsUse="1" X="331.05" Y="343" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000232" IsUse="1" X="366.9" Y="369.25" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000233" IsUse="1" X="405.15" Y="371.65000000000003" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000234" IsUse="1" X="442.2" Y="370.45" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000236" IsUse="1" X="527.05" Y="369.25" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000237" IsUse="1" X="565.25" Y="369.25" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000238" IsUse="1" X="599.95" Y="370.45" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000239" IsUse="1" X="629.8000000000001" Y="395.55" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000240" IsUse="1" X="658.5" Y="419.45" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000241" IsUse="1" X="690.75" Y="445.75" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000242" IsUse="1" X="720.65" Y="468.45" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000243" IsUse="1" X="749.3000000000001" Y="492.35" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000244" IsUse="1" X="774.4" Y="513.85" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000245" IsUse="1" X="801.9" Y="534.2" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000246" IsUse="1" X="827" Y="556.9" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000247" IsUse="1" X="0" Y="4.8" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000248" IsUse="1" X="2.4" Y="1.2" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000249" IsUse="1" X="2.4" Y="0" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000250" IsUse="1" X="3.6" Y="0" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000251" IsUse="1" X="0" Y="1.2" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000252" IsUse="1" X="1.2" Y="0" W="15" H="15" Rx="0" Ry="0"/>
+		</GlobalInfo>
+		<!--线路信息-->
+		<LineInfo>
+			<MapInfo LineId="01" ImageName="1号线.png" IsUse="1" StationCount="17">
+				<StationInfo StationId="0000000121" IsUse="1" X="309.55" Y="97.45" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000122" IsUse="1" X="437.7" Y="97.45" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000123" IsUse="1" X="553.2" Y="96.55" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000124" IsUse="1" X="690.4" Y="96.55" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000125" IsUse="1" X="810.4" Y="98.35000000000001" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000126" IsUse="1" X="882.6" Y="232.85" W="65" H="65" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000127" IsUse="1" X="809.5" Y="361" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000128" IsUse="1" X="678.65" Y="362.8" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000129" IsUse="1" X="557.7" Y="361.90000000000003" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000130" IsUse="1" X="435" Y="362.8" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000131" IsUse="1" X="309.55" Y="361" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000132" IsUse="1" X="185.9" Y="363.7" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000133" IsUse="1" X="111" Y="493.65000000000003" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000134" IsUse="1" X="186.8" Y="631.75" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000135" IsUse="1" X="307.75" Y="631.75" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000136" IsUse="1" X="0.9" Y="0" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000137" IsUse="1" X="559.5" Y="629.95" W="40" H="40" Rx="0" Ry="0"/>
+			</MapInfo>
+			<MapInfo LineId="02" ImageName="2号线.png" IsUse="1" StationCount="20">
+				<StationInfo StationId="0000000227" IsUse="1" X="620.9" Y="132.65" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000228" IsUse="1" X="698.5" Y="134.45" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000229" IsUse="1" X="774.3000000000001" Y="134.45" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000230" IsUse="1" X="852.85" Y="133.55" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000231" IsUse="1" X="898.85" Y="263.55" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000232" IsUse="1" X="853.75" Y="384.45" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000233" IsUse="1" X="776.1" Y="386.25" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000234" IsUse="1" X="698.5" Y="385.35" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000236" IsUse="1" X="545.1" Y="387.15000000000003" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000237" IsUse="1" X="464.75" Y="387.15000000000003" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000238" IsUse="1" X="388.05" Y="386.25" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000239" IsUse="1" X="311.35" Y="384.45" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000240" IsUse="1" X="232.8" Y="385.35" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000241" IsUse="1" X="156.1" Y="386.25" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000242" IsUse="1" X="109.2" Y="511.7" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000243" IsUse="1" X="151.6" Y="636.25" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000244" IsUse="1" X="229.2" Y="636.25" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000245" IsUse="1" X="308.65000000000003" Y="636.25" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000246" IsUse="1" X="384.45" Y="637.15" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000126" IsUse="1" X="620" Y="385.35" W="65" H="65" Rx="0" Ry="0"/>
+			</MapInfo>
+		</LineInfo>
+	</ResolutionInfo>
+	<ResolutionInfo ResolutionId="05" Content="1280*1024">
+		<GlobalInfo ImageName="主界面.png" StationCount="48">
+			<StationInfo StationId="0000000121" IsUse="1" X="508.95" Y="110.9" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000122" IsUse="1" X="508.95" Y="157.3" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000123" IsUse="1" X="509.9" Y="206.6" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000124" IsUse="1" X="509.9" Y="255.9" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000125" IsUse="1" X="485.25" Y="309.90000000000003" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000126" IsUse="1" X="484.3" Y="370.55" W="30" H="30" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000127" IsUse="1" X="484.3" Y="411.3" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000128" IsUse="1" X="483.35" Y="450.15000000000003" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000129" IsUse="1" X="484.3" Y="489" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000130" IsUse="1" X="484.3" Y="528.8" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000131" IsUse="1" X="484.3" Y="567.7" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000132" IsUse="1" X="484.3" Y="609.4" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000133" IsUse="1" X="484.3" Y="644.45" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000134" IsUse="1" X="483.35" Y="685.2" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000135" IsUse="1" X="484.3" Y="722.15" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000136" IsUse="0" X="0" Y="0" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000137" IsUse="1" X="484.3" Y="801.75" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000221" IsUse="1" X="0" Y="0" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000222" IsUse="1" X="0" Y="0" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000223" IsUse="1" X="0" Y="0" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000224" IsUse="1" X="0" Y="0" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000225" IsUse="1" X="0" Y="0" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000226" IsUse="1" X="0" Y="0" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000227" IsUse="1" X="215.1" Y="259.35" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000228" IsUse="1" X="246.2" Y="278.45" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000229" IsUse="1" X="271.3" Y="298.75" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000230" IsUse="1" X="299.95" Y="321.45" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000231" IsUse="1" X="331.05" Y="343" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000232" IsUse="1" X="366.9" Y="369.25" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000233" IsUse="1" X="405.15" Y="371.65000000000003" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000234" IsUse="1" X="442.2" Y="370.45" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000236" IsUse="1" X="527.05" Y="369.25" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000237" IsUse="1" X="565.25" Y="369.25" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000238" IsUse="1" X="599.95" Y="370.45" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000239" IsUse="1" X="629.8000000000001" Y="395.55" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000240" IsUse="1" X="658.5" Y="419.45" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000241" IsUse="1" X="690.75" Y="445.75" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000242" IsUse="1" X="720.65" Y="468.45" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000243" IsUse="1" X="749.3000000000001" Y="492.35" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000244" IsUse="1" X="774.4" Y="513.85" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000245" IsUse="1" X="801.9" Y="534.2" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000246" IsUse="1" X="827" Y="556.9" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000247" IsUse="1" X="0" Y="4.8" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000248" IsUse="1" X="2.4" Y="1.2" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000249" IsUse="1" X="2.4" Y="0" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000250" IsUse="1" X="3.6" Y="0" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000251" IsUse="1" X="0" Y="1.2" W="15" H="15" Rx="0" Ry="0"/>
+			<StationInfo StationId="0000000252" IsUse="1" X="1.2" Y="0" W="15" H="15" Rx="0" Ry="0"/>
+		</GlobalInfo>
+		<!--线路信息-->
+		<LineInfo>
+			<MapInfo LineId="01" ImageName="1号线.png" IsUse="1" StationCount="17">
+				<StationInfo StationId="0000000121" IsUse="1" X="309.55" Y="97.45" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000122" IsUse="1" X="437.7" Y="97.45" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000123" IsUse="1" X="553.2" Y="96.55" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000124" IsUse="1" X="690.4" Y="96.55" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000125" IsUse="1" X="810.4" Y="98.35000000000001" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000126" IsUse="1" X="882.6" Y="232.85" W="65" H="65" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000127" IsUse="1" X="809.5" Y="361" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000128" IsUse="1" X="678.65" Y="362.8" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000129" IsUse="1" X="557.7" Y="361.90000000000003" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000130" IsUse="1" X="435" Y="362.8" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000131" IsUse="1" X="309.55" Y="361" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000132" IsUse="1" X="185.9" Y="363.7" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000133" IsUse="1" X="111" Y="493.65000000000003" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000134" IsUse="1" X="186.8" Y="631.75" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000135" IsUse="1" X="307.75" Y="631.75" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000136" IsUse="1" X="0.9" Y="0" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000137" IsUse="1" X="559.5" Y="629.95" W="40" H="40" Rx="0" Ry="0"/>
+			</MapInfo>
+			<MapInfo LineId="02" ImageName="2号线.png" IsUse="1" StationCount="20">
+				<StationInfo StationId="0000000227" IsUse="1" X="620.9" Y="132.65" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000228" IsUse="1" X="698.5" Y="134.45" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000229" IsUse="1" X="774.3000000000001" Y="134.45" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000230" IsUse="1" X="852.85" Y="133.55" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000231" IsUse="1" X="898.85" Y="263.55" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000232" IsUse="1" X="853.75" Y="384.45" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000233" IsUse="1" X="776.1" Y="386.25" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000234" IsUse="1" X="698.5" Y="385.35" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000236" IsUse="1" X="545.1" Y="387.15000000000003" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000237" IsUse="1" X="464.75" Y="387.15000000000003" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000238" IsUse="1" X="388.05" Y="386.25" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000239" IsUse="1" X="311.35" Y="384.45" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000240" IsUse="1" X="232.8" Y="385.35" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000241" IsUse="1" X="156.1" Y="386.25" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000242" IsUse="1" X="109.2" Y="511.7" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000243" IsUse="1" X="151.6" Y="636.25" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000244" IsUse="1" X="229.2" Y="636.25" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000245" IsUse="1" X="308.65000000000003" Y="636.25" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000246" IsUse="1" X="384.45" Y="637.15" W="40" H="40" Rx="0" Ry="0"/>
+				<StationInfo StationId="0000000126" IsUse="1" X="620" Y="385.35" W="65" H="65" Rx="0" Ry="0"/>
+			</MapInfo>
+		</LineInfo>
+	</ResolutionInfo>
+</StationMap>

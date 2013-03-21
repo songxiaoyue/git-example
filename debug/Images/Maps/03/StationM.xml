@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<StationMap>
+  <!--版本信息-->
+  <Version VersionId="tvm201204270001" VersionDate="20120427160816" VersionType="1" VersionValidate="20120427160225" ValidateType="1" InValidateTime="20120427160816" VersionsSystem="00" VersionOper="130562" FormatVersion="01" />
+  <!--TVM售票地图信息-->
+</StationMap>

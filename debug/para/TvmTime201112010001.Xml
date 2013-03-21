@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TVMTime>
+  <!--版本信息-->
+  <Version VersionId="time_200802270001" ParamType="1" VersionDate="20100908161912" VersionType="1" VersionValidate="20100908161844" ValidateType="1" InValidateTime="20100908161912" VersionSystem="01" VersionOper="000000" FormatVersion="01" />
+	<!-- 运营点矩阵 -->
+  <StationInfo Length="4" Content = "02210223"/>
+   <!--TVM售票时间-->
+   <SaleTime>
+     <StartPlan>
+        <PlanInfo PlanId="0001" PlanName="平日起售方案" PlanContent="053000053100053200053300"/>
+        <PlanInfo PlanId="0002" PlanName="周末起售方案" PlanContent="054000054100053200054300"/>
+        <PlanInfo PlanId="0003" PlanName="节假日起售方案" PlanContent="052000052100052200052300"/>
+     </StartPlan>
+     <StopPlan>
+        <PlanInfo PlanId="0001" PlanName="平日停售方案" PlanContent = "233000233100233200233300" />
+        <PlanInfo PlanId="0002" PlanName="周末停售方案" PlanContent = "234000234100233200234300" />
+        <PlanInfo PlanId="0003" PlanName="节假日停售方案" PlanContent = "235000235100233200235300" />
+     </StopPlan>
+     <DatePlan>
+     <!-- DateType:1默认日期，2:周，3：指定，优先级为3/2/1 -->
+        <DatePlanInfo DateType="1" StopPlan="0001" StartPlan="0001"/>
+        <DatePlanInfo DateType="2" DateValue ="6" StopPlan="0002" StartPlan="0002"/>
+        <DatePlanInfo DateType="3" DateValue ="20121224" StopPlan="0003" StartPlan="0003"/>
+     </DatePlan>
+  </SaleTime>
+</TVMTime>

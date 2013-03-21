@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="gb2312"?>
+<TransactionData>
+	<TransSeqNo Metro="1" Oct="1"/>
+	<DateList>
+		<Day date="20061217 ">
+			<Metro start_seq="1" end_seq="1"/>
+			<Oct start_seq="1" end_seq="1"/>
+		</Day>
+		<Day date="20061218 ">
+			<Metro start_seq="1" end_seq="1"/>
+			<Oct start_seq="1" end_seq="1"/>
+		</Day>
+		<Day date="20061219 ">
+			<Metro start_seq="1" end_seq="1"/>
+			<Oct start_seq="1" end_seq="1"/>
+		</Day>
+		<Day date="20061220 ">
+			<Metro start_seq="1" end_seq="1"/>
+			<Oct start_seq="1" end_seq="1"/>
+		</Day>
+		<Day date="20070509 ">
+			<Metro start_seq="1" end_seq="1"/>
+			<Oct start_seq="1" end_seq="1"/>
+		</Day>
+		<Day date="20070723 ">
+			<Metro start_seq="1" end_seq="1"/>
+			<Oct start_seq="1" end_seq="1"/>
+		</Day>
+		<Day date="20070724 ">
+			<Metro start_seq="1" end_seq="1"/>
+			<Oct start_seq="1" end_seq="1"/>
+		</Day>
+	</DateList>
+	<TransList>
+		<Metro/>
+		<Oct/>
+	</TransList>
+</TransactionData>

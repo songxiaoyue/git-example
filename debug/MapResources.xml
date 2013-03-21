@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MapResources>
+  <LineColorList>
+    <LineColor lineId ="1" r="0xA3" g="0x31" b="0x87"/>
+    <LineColor lineId ="2" r="0xA3" g="0x31" b="0x87"/>
+    <LineColor lineId ="4" r="0xA3" g="0x31" b="0x87"/>
+    <LineColor lineId ="5" r="0xA3" g="0x31" b="0x87"/>
+    <LineColor lineId ="10" r="0xA3" g="0x31" b="0x87"/>
+    <LineColor lineId ="13" r="0xA3" g="0x31" b="0x87"/>
+    <LineColor lineId ="97" r="0xA3" g="0x31" b="0x87"/>
+    <LineColor lineId ="98" r="0xA3" g="0x31" b="0x87"/>
+    <LineColor lineId ="8" r="0xA3" g="0x31" b="0x87"/>
+    <LineColor lineId ="15" r="0xA3" g="0x31" b="0x87"/>
+    <LineColor lineId ="93" r="0xA3" g="0x31" b="0x87"/>
+    <LineColor lineId ="94" r="0xA3" g="0x31" b="0x87"/>
+    <LineColor lineId ="95" r="0xA3" g="0x31" b="0x87"/>
+    <LineColor lineId ="96" r="0xA3" g="0x31" b="0x87"/>
+  </LineColorList>
+  <LineStationIconList>
+    <StationIcon lineId ="1" img=".\Images\Maps\bm_Station.png"/>
+    <StationIcon lineId ="2" img=".\Images\Maps\bm_Station.png"/>
+    <StationIcon lineId ="4" img=".\Images\Maps\bm_Station.png"/>
+    <StationIcon lineId ="5" img=".\Images\Maps\bm_Station.png"/>
+    <StationIcon lineId ="10" img=".\Images\Maps\bm_Station.png"/>
+    <StationIcon lineId ="13" img=".\Images\Maps\bm_Station.png"/>
+    <StationIcon lineId ="97" img=".\Images\Maps\bm_Station.png"/>
+    <StationIcon lineId ="98" img=".\Images\Maps\bm_Station.png"/>
+    <StationIcon lineId ="8" img=".\Images\Maps\bm_Station.png"/>
+    <StationIcon lineId ="15" img=".\Images\Maps\bm_Station.png"/>
+    <StationIcon lineId ="93" img=".\Images\Maps\bm_Station.png"/>
+    <StationIcon lineId ="94" img=".\Images\Maps\bm_Station.png"/>
+    <StationIcon lineId ="95" img=".\Images\Maps\bm_Station.png"/>
+    <StationIcon lineId ="96" img=".\Images\Maps\bm_Station.png"/>
+  </LineStationIconList>
+  <LineButtonList>
+    <LineButton lineId ="1" img=".\Images\Maps\bm_Line1.png"/>
+    <LineButton lineId ="2" img=".\Images\Maps\bm_Line2.png"/>
+    <LineButton lineId ="4" img=".\Images\Maps\bm_Line4.png"/>
+    <LineButton lineId ="5" img=".\Images\Maps\bm_Line5.png"/>
+    <LineButton lineId ="10" img=".\Images\Maps\bm_Line10.png"/>
+    <LineButton lineId ="13" img=".\Images\Maps\bm_Line13.png"/>
+    <LineButton lineId ="97" img=".\Images\Maps\bm_LineBatong.png"/>
+    <LineButton lineId ="98" img=".\Images\Maps\bm_LineJiChang.png"/>
+    <LineButton lineId ="8" img=".\Images\Maps\bm_Line8.png"/>
+  </LineButtonList>
+</MapResources>

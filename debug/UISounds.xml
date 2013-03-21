@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <UISounds sndWelcome=".\Sounds\welcome.wav"
+            sndInputFare=".\Sounds\inputfare.wav"
+            sndInputCard=".\Sounds\inputcard.wav"
+            sndOpFinished=".\Sounds\opfinished.wav"
+            sndOperating=".\Sounds\operating.wav"
+            sndStaff=".\Sounds\staff.wav"
+            sndInvalid=".\Sounds\invalid.wav"/>
+   <UISoundsEn sndWelcome=".\Sounds\welcomeEn.wav"
+            sndInputFare=".\Sounds\inputfareEn.wav"
+            sndInputCard=".\Sounds\inputcardEn.wav"
+            sndOpFinished=".\Sounds\opfinishedEn.wav"
+            sndOperating=".\Sounds\operatingEn.wav"
+            sndStaff=".\Sounds\staffEn.wav"
+            sndInvalid=".\Sounds\invalidEn.wav"/>
+</root>
